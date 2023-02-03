@@ -59,6 +59,11 @@ main{
     margin: 20px;
     border-radius: 15px;
 }
+.flexbox:hover{
+    border-radius: 50%;
+    transition: 1s;
+    
+}
 footer{
     background-color: var(--cor0);
     color: var(--cor5);
