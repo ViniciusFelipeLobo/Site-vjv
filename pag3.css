@@ -62,6 +62,8 @@ main{
 .flexbox:hover{
     border-radius: 50%;
     transition: 1s;
+    background-image: linear-gradient(To top, var(--cor4), var(--cor2));
+    
     
 }
 footer{
