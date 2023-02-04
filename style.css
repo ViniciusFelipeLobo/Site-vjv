@@ -7,6 +7,7 @@
     --cor3: #049DBF;
     --cor4: #04ADBF;
     --cor5: #fafafa;
+    --cor6: #551A8B;
 }
 *{
     padding: 0px;
@@ -37,6 +38,9 @@ nav > a {
 nav > a:hover{
     background-color: white;
     border-radius: 15px;
+}
+a:active{
+    color: var(--cor6);
 }
 main{ 
     min-width: 300px;
