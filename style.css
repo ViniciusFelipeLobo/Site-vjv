@@ -79,7 +79,7 @@ footer{
 @media (min-width: 300px){
 
     nav{
-        
+        margin-right: 5px;
     }
     .tituloproduto{
     padding: 10px;
