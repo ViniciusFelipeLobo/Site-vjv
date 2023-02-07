@@ -76,9 +76,20 @@ footer{
     padding: 5px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
+@media (min-width:280px){
+   main{
+   font-size: 0.7em;
+   } 
+   .caracteristicas{
+    font-size: 0.5em;
+   }
+   .tituloproduto{
+    padding: 8px;
+   }
+}
 @media (min-width: 300px){
 
-    nav{
+    nav > a{
         margin-right: 5px;
     }
     .tituloproduto{
