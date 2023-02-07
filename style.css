@@ -55,6 +55,19 @@ main{
 }
 main > p{
     padding: 8px;
+    font-size: 1.3em;
+}
+main .tituloproduto{
+    font-size: 1.2em;
+}
+main .pasteis{
+    padding: 8px;
+
+}
+.caracteristicas{
+    font-size: 0.8em;
+    font-weight: lighter;
+    margin: 5px;
 }
 footer{
     background-color: var(--cor0);
@@ -62,9 +75,4 @@ footer{
     text-align: center;
     padding: 5px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-}
-.caracteristicas{
-    font-size: 0.8em;
-    font-weight: lighter;
-    margin: 5px;
 }
