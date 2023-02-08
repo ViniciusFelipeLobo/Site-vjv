@@ -14,20 +14,30 @@
     margin: 0px;
     font-family:'Luckiest Guy', Helvetica, sans-serif;
 }
+
 header{
+    background-image: linear-gradient(To bottom, var(--cor0), var(--cor4));
+    text-align: center;
+    padding: 25px;
+}
+/*header{
     font-size: 2em;
     height: 70px;
     background-image: linear-gradient(To bottom, var(--cor0), var(--cor3));
     text-align: center;
     color: var(--cor5);
     padding-top: 35px;
-}
+}*/
 header > p{
+    font-size: 2em;
+    position: auto;
     text-shadow: 1px 1px 2px black;
+    color: var(--cor5);
 }
 nav{
     text-align: center;
-    background-image: linear-gradient(To bottom, var(--cor3), var(--cor4));
+    /*background-image: linear-gradient(To bottom, var(--cor3), var(--cor4));*/
+    background-color: var(--cor4);
 }
 nav > a {
     text-decoration: none;
