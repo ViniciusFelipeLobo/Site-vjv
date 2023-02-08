@@ -27,7 +27,7 @@ header > p{
 }
 nav{
     text-align: center;
-    background-image: linear-gradient(To bottom, var(--cor3), var(--cor4))
+    background-image: linear-gradient(To bottom, var(--cor3), var(--cor4));
 }
 nav > a {
     text-decoration: none;
@@ -92,7 +92,7 @@ footer{
 
    }
    nav > a{
-    font-size: 0.8em;
+    font-size: 0.5em;
     margin-right: 5px;
    }
 }
