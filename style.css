@@ -17,7 +17,6 @@
 header{
     font-size: 2em;
     height: 70px;
-    width: 100%;
     background-image: linear-gradient(To bottom, var(--cor0), var(--cor3));
     text-align: center;
     color: var(--cor5);
@@ -56,6 +55,7 @@ main{
 main > p{
     padding: 8px;
     font-size: 1.3em;
+    text-decoration: none;
 }
 main .tituloproduto{
     font-size: 1.2em;
@@ -83,15 +83,17 @@ footer{
 }
 @media (max-width:280px){
    main{
-   font-size: 0.7em;
+   font-size: 0.5em;
    } 
    .caracteristicas{
     font-size: 0.5em;
    }
    .tituloproduto{
     padding: 8px;
+
    }
    nav > a{
+    font-size: 1em;
     margin-right: 5px;
    }
 }
