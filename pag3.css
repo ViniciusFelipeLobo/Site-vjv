@@ -15,20 +15,18 @@
     font-family:'Luckiest Guy', Helvetica, sans-serif;
 }
 header{
-    font-size: 2em;
-    height: 70px;
-    width: 100%;
     background-image: linear-gradient(To bottom, var(--cor0), var(--cor3));
     text-align: center;
     color: var(--cor5);
-    padding-top: 35px;
+    padding-top: 20px;
 }
 header > p{
     text-shadow: 1px 1px 2px black;
+    font-size: 2em;
 }
 nav{
     text-align: center;
-    background-image: linear-gradient(To bottom, var(--cor3), var(--cor4))
+    background-image: linear-gradient(To bottom, var(--cor4))
 }
 nav > a {
     text-decoration: none;
@@ -43,8 +41,7 @@ a:active{
     color: var(--cor6);
 }
 main{ 
-    min-width: 300px;
-    max-width: 800px;
+    width: 80%;
     margin: auto;
     background-color: var(--cor2);
     color: var(--cor5);
