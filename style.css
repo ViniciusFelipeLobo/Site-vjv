@@ -18,7 +18,7 @@
 header{
     background-image: linear-gradient(To bottom, var(--cor0), var(--cor4));
     text-align: center;
-    padding: 25px;
+    padding-top: 20px;
 }
 /*header{
     font-size: 2em;
