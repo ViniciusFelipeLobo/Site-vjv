@@ -56,3 +56,22 @@ main > h1{
 text-shadow: 1px 1px 2px black;
 font-size: 1em;
 }
+
+@media (max-width: 380px){
+
+    main{
+    font-size: 0.5em;
+    } 
+    .caracteristicas{
+     font-size: 0.5em;
+    }
+    .tituloproduto{
+     padding: 8px;
+ 
+    }
+    nav > a{
+     font-size: 1em;
+     margin-right: 5px;
+    }
+ }
+ 
