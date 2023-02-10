@@ -67,10 +67,13 @@ main > p{
     font-size: 1.3em;
     text-decoration: none;
 }
-main .tituloproduto{
+ul{
+    list-style: none;
+}
+.tituloproduto{
     font-size: 1.2em;
 }
-main .pasteis{
+.pasteis{
     padding: 8px;
 
 }
@@ -87,21 +90,17 @@ footer{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 @media (max-width: 380px){
-
-   main{
-   font-size: 0.5em;
-   } 
    main > p{
-    font-size: 3em;
+    font-size: 1.5em;
    }
-    ul.produto {
-    font-size: 1em;
+    li.produto {
+    font-size: 0.8em;
    }
-    ul.caracteristicas{
+    li.caracteristicas{
     font-size: 0.5em;
    }
-    ul.tituloproduto{
-    font-size: 2em;
+    li.tituloproduto{
+    font-size: 1em;
     padding: 8px;
 
    }
