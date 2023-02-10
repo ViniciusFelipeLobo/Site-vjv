@@ -17,7 +17,6 @@
 header{
     background-image: linear-gradient(To bottom, var(--cor0), var(--cor4));
     text-align: center;
-    color: var(--cor5);
     padding-top: 30px;
     padding-bottom: 10px;
     
