@@ -91,10 +91,14 @@ footer{
    main{
    font-size: 0.5em;
    } 
+   .produto{
+    font-size: 0.7em;
+   }
    .caracteristicas{
     font-size: 0.5em;
    }
    .tituloproduto{
+    font-size: 1em;
     padding: 8px;
 
    }
