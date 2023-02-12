@@ -30,7 +30,7 @@ header{
     padding-top: 35px;
 }*/
 header > p{
-    font-size: 2em;
+    font-size: 3em;
     position: auto;
     text-shadow: 1px 1px 2px black;
     color: var(--cor5);
@@ -98,7 +98,14 @@ footer > a{
 footer > a:active{
     color: var(--cor5);
 }
+
 @media (max-width: 540px){
+    header > p{
+        font-size: 2em;
+        position: auto;
+        text-shadow: 1px 1px 2px black;
+        color: var(--cor5);
+    }
     ul.computador{
         display: none;
     }
@@ -126,6 +133,12 @@ footer > a:active{
 }
 
 @media (max-width: 380px){
+    header > p{
+        font-size: 2em;
+        position: auto;
+        text-shadow: 1px 1px 2px black;
+        color: var(--cor5);
+    }
    main > p{
     font-size: 1.5em;
    }
