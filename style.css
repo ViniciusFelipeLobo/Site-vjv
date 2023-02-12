@@ -62,6 +62,9 @@ main{
     text-shadow: 1px 1px 2px black;
     box-shadow: 1px 1px 3px black;
 }
+.celulargrande{
+    display: none;
+}
 main > p{
     padding: 8px;
     font-size: 1.3em;
@@ -90,6 +93,12 @@ footer{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 @media (max-width: 540px){
+    ul.computador{
+        display: none;
+    }
+    ul.celulargrande{
+        display: block;
+    }
     main > p{
      font-size: 1.5em;
     }
