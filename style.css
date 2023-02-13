@@ -67,23 +67,27 @@ ul.celulargrande{
 }
 main > p{
     padding: 8px;
-    font-size: 1.3em;
+    font-size: 2em;
     text-decoration: none;
 }
 ul{
     list-style: none;
 }
 .tituloproduto{
-    font-size: 1.2em;
+    font-size: 1.7em;
+}
+.produto{
+    font-size: 1.5em;
+
+}
+.caracteristicas{
+    font-size: 1.1em;
+    font-weight: lighter;
+    margin: 5px;
 }
 .pasteis{
     padding: 8px;
 
-}
-.caracteristicas{
-    font-size: 0.8em;
-    font-weight: lighter;
-    margin: 5px;
 }
 footer{
     background-color: var(--cor0);
