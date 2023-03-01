@@ -92,6 +92,7 @@ ul{
 #listadeprodutos{
     background-color: var(--cor2);
     padding: 30px;
+    border-radius: 50%;
 }
 footer{
     background-color: var(--cor0);
