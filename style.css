@@ -92,6 +92,8 @@ ul{
 #listadeprodutos{
     background-color: var(--cor2);
     padding: 30px;
+}
+main > nav > a:hover{
     border-radius: 50%;
 }
 footer{
