@@ -78,7 +78,6 @@ ul{
 }
 .produto{
     font-size: 1.5em;
-
 }
 .caracteristicas{
     font-size: 1.1em;
@@ -87,14 +86,10 @@ ul{
 }
 .pasteis{
     padding: 8px;
-
 }
 #listadeprodutos{
     background-color: var(--cor2);
     padding: 30px;
-}
-main > nav > a:hover{
-    border-radius: 50%;
 }
 footer{
     background-color: var(--cor0);
