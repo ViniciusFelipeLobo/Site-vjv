@@ -27,19 +27,34 @@
         background-image: linear-gradient(To bottom, var(--cor0), var(--cor4));
         text-align: center;
         color: var(--cor5);
+        height: 80px;
     }
-    p{
+    #logo{
         text-align: center;
         font-weight: bold;    
         text-shadow: 1px 1px 2px black;
         font-size: 2rem;
     }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        background-color: var(--cor4);
+        
+    }
+    a{
+        color: var(--cor5);
+        text-decoration: none;
+        list-style: none;
+    }
     main{
         display: flex;
         height: 100vh;
+        background: url(imagens/vjv\ \(400\ ×\ 667\ px\).png);
     }
     footer{
+        text-align: center;
         background-color: var(--cor0);
-        color: #FFFFFF;
+        color: var(--cor5);
     }
 }
