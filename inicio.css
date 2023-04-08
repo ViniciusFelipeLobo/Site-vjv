@@ -1,7 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 :root{
-    --padrao:'Luckiest Guy';
     --cor0: #0455BF;
     --cor1: #0477BF;
     --cor2: #048ABF;
@@ -11,32 +10,42 @@
     --cor6: #551A8B;
 }
 *{
-    margin: 0px;
-    padding: 0px;
-    font: normal 1.03em var(--padrao, sans-serif);
-    color: var(--cor0);
-}
-main{
-    display: flex;
-}
-#inicio1{
-    width: 50%;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-}
-nav{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 10%;
-
-}
-a{
-    text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
-#inicio2{
-    width: 50%;
-    height: 100vh;
-    background-image: linear-gradient(To bottom, var(--cor0), var(--cor4));
+@media (min-width: 0px) and (max-width: 500px) {
+    header{
+        flex-wrap: wrap;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: linear-gradient(To bottom, var(--cor0), var(--cor4));
+        text-align: center;
+        color: var(--cor5);
+    }
+    p{
+        text-align: center;
+        font-weight: bold;
+        font: normal 1rem bold 'Luckiest Guy', 'sans-serif';
+    }
+    span{
+        font-weight: lighter;
+    }
+    #nome1{
+        font-size: 2rem;
+    }
+    #nome2{
+        font-size: 2rem;
+    }
+    main{
+        display: flex;
+        height: 88.4vh;
+    }
+    footer{
+        background-color: var(--cor0);
+        color: #FFFFFF;
+    }
 }
