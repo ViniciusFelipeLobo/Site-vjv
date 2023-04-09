@@ -69,6 +69,7 @@
         margin: auto;
     }
     a{
+        padding: 5px;
         width: 100%;
         display: block;
         color: var(--cor5);
