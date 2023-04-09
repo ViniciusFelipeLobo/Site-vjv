@@ -54,6 +54,11 @@
     }
     ul{
         list-style: none;
+        
+    }
+    li{
+        margin: 20px 0;
+        height: 20px;
     }
     a{
         display: block;
