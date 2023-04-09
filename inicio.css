@@ -26,7 +26,8 @@
         flex-direction: column;
         background-image: linear-gradient(To bottom, var(--cor0), var(--cor4));
         text-align: center;
-        color: var(--cor5)
+        color: var(--cor5);
+        margin: auto;
     }
     #logo{
         display: flex;
