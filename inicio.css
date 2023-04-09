@@ -36,7 +36,7 @@
         font-size: 2rem;
     }
     #items{
-        display: block;
+        display: none;
         text-align: center;
         color: var(--cor0);
     }
