@@ -13,7 +13,7 @@
     <header>
         <p id="logo">VJV DELIVERY</p>
     </header>
-    <i id="items" class="material-icons">menu</i>
+    <i id="items" class="material-icons" onclick="clickMenu()">menu</i>
     <nav>
         <a href="inicio.html">Ínicio</a>
         <a href="cardapio.html">Cardápio</a>
@@ -28,5 +28,15 @@
             Site desnvolvido Por <a href="">@vinicius Felipe</a>
         </p>
     </footer>
+    <script>
+        onclick(){
+            if(items.style.display == 'block' ){
+                items.style.display = 'none'
+            }
+            else{
+                items.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
