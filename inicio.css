@@ -42,23 +42,25 @@
         text-align: center;
         color: var(--cor0);
         cursor: pointer;
-        height: 50px;
+        height: 30px;
     }
     i#icone:active{
         background-color: var(--cor0);
         color: var(--cor5);
     }
-    #items{
+    menu#items{
         text-align: center;
         display: none;
+        width: 100%;
     }
     ul{
         list-style: none;
+    
+        width: 100%;
         
     }
     li{
-        margin: 20px 0;
-        height: 20px;
+
     }
     a{
         display: block;
@@ -71,6 +73,7 @@
     }
     main{
         display: flex;
+        justify-content: center;
         height: 100vh;
         background: url(imagens/vjv\ \(400\ ×\ 667\ px\).png);
         background-repeat: no-repeat;
