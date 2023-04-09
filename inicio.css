@@ -36,10 +36,17 @@
         font-size: 2rem;
     }
     #icone{
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         color: var(--cor0);
         cursor: pointer;
+        height: 50px;
+    }
+    i#icone:active{
+        background-color: var(--cor0);
+        color: var(--cor5);
     }
     #items{
         text-align: center;
