@@ -35,13 +35,18 @@
         text-shadow: 1px 1px 2px black;
         font-size: 2rem;
     }
-    #items{
-        display: none;
+    #icone{
+        display: block;
         text-align: center;
         color: var(--cor0);
+        cursor: pointer;
     }
-    nav{
+    #items{
         text-align: center;
+        display: none;
+    }
+    ul{
+        list-style: none;
     }
     a{
         display: block;
