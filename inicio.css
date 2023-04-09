@@ -33,7 +33,7 @@
         font-weight: bold;    
         text-shadow: 1px 4px 2px rgba(0, 0, 0, 0.473);
         font-size: 3rem;
-        padding: 30px;
+        padding: 15px;
     }
     #icone{
         display: flex;
@@ -55,14 +55,16 @@
     }
     ul{
         list-style: none;
-    
         width: 100%;
         
     }
     li{
-
+        justify-content: center;
+        display: flex;
+        align-items: center;
     }
     a{
+        width: 100%;
         display: block;
         color: var(--cor5);
         text-decoration: none;
