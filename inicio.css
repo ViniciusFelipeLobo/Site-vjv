@@ -89,6 +89,7 @@
         background-position: center;
     }
     footer{
+        padding: 5px;
         text-align: center;
         background-color: var(--cor0);
         color: var(--cor5);
