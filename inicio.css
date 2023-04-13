@@ -8,6 +8,8 @@
     --cor4: #04ADBF;
     --cor5: #fafafa;
     --cor6: #551A8B;
+    --cor7: #FF1616;
+    --cor8: #FDC240;
 }
 *{
     margin: 0;
@@ -24,7 +26,9 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-image: linear-gradient(To bottom, var(--cor0), var(--cor4));
+        /*background-image: linear-gradient(To bottom, var(--cor0), var(--cor4));
+        */
+        background-color: var(--cor7);
         text-align: center;
         color: var(--cor5);
         margin: auto;
@@ -43,13 +47,13 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        color: var(--cor0);
+        color: var(--cor7);
         cursor: pointer;
         height: 30px;
     }
     i#icone:active{
-        background-color: var(--cor0);
-        color: var(--cor5);
+        background-color: var(--cor8);
+        color: var(--cor7);
     }
     menu#items{
         text-align: center;
@@ -75,7 +79,7 @@
         text-decoration: none;
         list-style: none;
         font-size: 1.5rem;
-        background-color: var(--cor0);
+        background-color: var(--cor7);
         margin: auto;
     }
     main{
@@ -90,7 +94,7 @@
     footer{
         padding: 5px;
         text-align: center;
-        background-color: var(--cor0);
+        background-color: var(--cor7);
         color: var(--cor5);
     }
 }
