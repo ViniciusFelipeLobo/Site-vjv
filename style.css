@@ -116,6 +116,7 @@ footer > a:active{
         display: block;
     }
     main{
+        width: 100vh;
         background-image: url(fundocardapio.png);
         background-repeat: no-repeat;
         background-position: center;
