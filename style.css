@@ -51,7 +51,7 @@ a:active{
 }
 main{ 
     width: 100%;
-
+    color: white;
     margin: auto;
     color: ;
     text-align: center;
@@ -116,7 +116,6 @@ footer > a:active{
         display: block;
     }
     main{
-        width: 100%;
         background-image: url(fundocardapio.png);
         background-repeat: no-repeat;
         background-position: center;
