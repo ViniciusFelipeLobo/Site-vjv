@@ -8,6 +8,9 @@
     --cor4: #04ADBF;
     --cor5: #fafafa;
     --cor6: #551A8B;
+    --cor7: #FF1616;
+    --cor8: #FDC240;
+
 }
 *{
     padding: 0px;
@@ -16,7 +19,8 @@
 }
 
 header{
-    background-image: linear-gradient(To bottom, var(--cor0), var(--cor4));
+    background-color: var(--cor7);
+    /*background-image: linear-gradient(To bottom, var(--cor0), var(--cor4));*/
     text-align: center;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -28,25 +32,28 @@ header > p{
 }
 nav{
     text-align: center;
-    background-color: var(--cor4);
+    background-color: var(--cor7);
+    /*background-color: var(--cor4);*/
+    
 }
 nav > a {
     text-decoration: none;
     margin-right: 15px;
     padding: 2px;
+    color:white;
 }
 nav > a:hover{
-    background-color: white;
+    background-color: var(--cor8);
     border-radius: 15px;
 }
 a:active{
     color: var(--cor6);
 }
 main{ 
-    width: 80%;
-    background-color: var(--cor2);
+    width: 100%;
+    background-color: ;
     margin: auto;
-    color: var(--cor5);
+    color: ;
     text-align: center;
     font-size: 1em;
     text-shadow: 1px 1px 2px black;
