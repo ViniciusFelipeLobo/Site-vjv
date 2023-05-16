@@ -83,8 +83,11 @@ ul{
     padding: 8px;
 }
 #listadeprodutos{
-    background-color: var(--cor2);
+
     padding: 30px;
+}
+#listadeprodutos a:hover{
+   background-color: #04ADBF;
 }
 footer{
     background-color: var(--cor0);
