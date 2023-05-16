@@ -119,7 +119,7 @@ footer > a:active{
         background-image: url(fundocardapio.png);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size: auto;
     }
     main > p{
      font-size: 1.5em;
@@ -155,7 +155,7 @@ footer > a:active{
     background-image: url(fundocardapio.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: auto;
 }
     li.produto {
     font-size: 0.8em;
