@@ -19,8 +19,7 @@
 }
 
 header{
-    background-color: var(--cor7);
-    /*background-image: linear-gradient(To bottom, var(--cor0), var(--cor4));*/
+background-image: linear-gradient(To bottom, var(--cor0), var(--cor4));
     text-align: center;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -32,8 +31,7 @@ header > p{
 }
 nav{
     text-align: center;
-    background-color: var(--cor7);
-    /*background-color: var(--cor4);*/
+background-color: var(--cor4);
     
 }
 nav > a {
@@ -43,21 +41,21 @@ nav > a {
     color:white;
 }
 nav > a:hover{
-    background-color: var(--cor8);
+    background-color: var(--cor0);
     border-radius: 15px;
 }
 a:active{
-    color: var(--cor6);
+    color: var(--cor0);
 }
 main{ 
 
     color: white;
     margin: auto;
-    color: ;
+    background-color: var(--cor4);
     text-align: center;
     font-size: 1em;
     text-shadow: 1px 1px 2px black;
-    box-shadow: 1px 1px 3px black;
+    
 }
 ul.celulargrande{
     display: none;
@@ -115,13 +113,7 @@ footer > a:active{
     ul.celulargrande{
         display: block;
     }
-    main{
-        height: 100vh;
-        background-image: url(fundocardapio.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: auto;
-    }
+
     main > p{
      font-size: 1.5em;
     }
@@ -152,13 +144,7 @@ footer > a:active{
    main > p{
     font-size: 1.5em;
    }
-   main{
-    height: 100vh;
-    background-image: url(fundocardapio.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
-}
+
     li.produto {
     font-size: 0.8em;
    }
