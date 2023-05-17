@@ -57,6 +57,9 @@ main{
     justify-content: center;
 }
 .flexbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: var(--cor4);
     width: 200px;
     height: 200px;
@@ -70,6 +73,7 @@ main{
     
     
 }
+
 footer{
     background-color: var(--cor0);
     color: var(--cor5);
