@@ -44,6 +44,12 @@ a:active,a:visited{
     text-decoration: none;
     color: var(--cor6);
 }
+main > a{
+    color: var(--cor5);
+    outline: 0;
+    border: none;
+    text-decoration: none;
+}
 main{ 
     width: 80%;
     margin: auto;
