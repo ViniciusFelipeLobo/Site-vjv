@@ -115,9 +115,13 @@ footer > a:active{
     ul.computador{
         display: none;
     }
+    ul.celularpequeno{
+        display: none;
+    }
     ul.celulargrande{
         display: block;
     }
+
 
     main > p{
      font-size: 1.5em;
