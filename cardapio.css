@@ -144,6 +144,12 @@ footer > a:active{
 }
 
 @media (max-width: 380px){
+    ul.celulargrande{
+        display: none;
+    }
+    ul.celularpequeno{
+        display: block;
+    }
     header > p{
         font-size: 2em;
         position: auto;
