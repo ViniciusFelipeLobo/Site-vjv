@@ -31,6 +31,7 @@ nav{
     background-color: var(--cor4);
 }
 nav > a {
+    color: var(--cor0);
     text-decoration: none;
     margin-right: 15px;
     padding: 2px;
