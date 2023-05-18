@@ -41,6 +41,8 @@ nav > a:hover{
     border-radius: 15px;
 }
 a:active{
+    outline: none;
+    background-color: transparent;
     text-decoration: none;
     color: var(--cor6);
 }
