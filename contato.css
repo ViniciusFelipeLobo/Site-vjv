@@ -46,7 +46,7 @@ a:active{
 }
 main > a{
     color: var(--cor5);
-    outline: 0;
+    outline: none;
     border: none;
     text-decoration: none;
 }
