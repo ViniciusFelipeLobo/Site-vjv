@@ -49,6 +49,7 @@ main > a{
     outline: none;
     border: none;
     text-decoration: none;
+    background-color: transparent;
 }
 main{ 
     width: 80%;
