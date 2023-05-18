@@ -18,7 +18,7 @@
     font-family: Luckiest Guy;
 }
 
-@media (min-width: 0px) and (max-width: 500px) {
+@media (min-width: 0px) and (max-width: 500px), screen and (orientation: landscape) {
     header{
         flex-wrap: wrap;
         display: flex;
