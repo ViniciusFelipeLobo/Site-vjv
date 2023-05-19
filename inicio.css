@@ -55,6 +55,7 @@
     i#icone:active{
         background-color: var(--cor8);
         color: var(--cor7);
+        -webkit-tap-highlight-color: transparent; 
     }
     menu#items{
         text-align: center;
