@@ -112,8 +112,116 @@ footer > a{
 footer > a:active{
     color: var(--cor5);
 }
+@media (max-width: 0px), screen and (orientation: landscape){
+    ul.celulargrande{
+        display: none;
+    }
+    ul.celularpequeno{
+        display: block;
+    }
+    header > p{
+        font-size: 2em;
+        position: auto;
+        text-shadow: 1px 1px 2px black;
+        color: var(--cor5);
+    }
+   main > p{
+    font-size: 1.5em;
+   }
 
-@media (max-width: 540px),  screen and (orientation: landscape){
+    li.produto {
+    font-size: 1em;
+   }
+    li.caracteristicas{
+    font-size: 0.5em;
+   }
+    li.tituloproduto{
+    font-size: 1.3em;
+    padding: 8px;
+
+   }
+   nav > a{
+    font-size: 0.8em;
+    margin-right: 5px;
+   }
+}
+@media (max-width: 380px),  screen and (orientation: landscape){
+    header > p{
+        font-size: 2em;
+        position: auto;
+        text-shadow: 1px 1px 2px black;
+        color: var(--cor5);
+    }
+    ul.computador{
+        display: none;
+    }
+    ul.celularpequeno{
+        display: none;
+    }
+    ul.celulargrande{
+        display: block;
+    }
+
+
+    main > p{
+     font-size: 1.5em;
+    }
+     li.produto {
+     font-size: 1em;
+    }
+     li.caracteristicas{
+     font-size: 0.8em;
+    }
+     li.tituloproduto{
+     font-size: 1.4em;
+     padding: 8px;
+ 
+    }
+    nav > a{
+     font-size: 1em;
+     margin-right: 5px;
+    }
+}
+@media (min-width: 540px),  screen and (orientation: landscape){
+    header > p{
+        font-size: 3em;
+        position: auto;
+        text-shadow: 1px 1px 2px black;
+        color: var(--cor5);
+    }
+    ul.computador{
+        display: block;
+    }
+    ul.celularpequeno{
+        display: none;
+    }
+    ul.celulargrande{
+        display: none;
+    }
+
+
+    main > p{
+     font-size: 1.5em;
+    }
+     li.produto {
+     font-size: 1em;
+    }
+     li.caracteristicas{
+     font-size: 0.8em;
+    }
+     li.tituloproduto{
+     font-size: 1.4em;
+     padding: 8px;
+ 
+    }
+    nav > a{
+     font-size: 1em;
+     margin-right: 5px;
+    }
+}
+
+/*
+@media (max-width: 380px),  screen and (orientation: landscape){
     header > p{
         font-size: 2em;
         position: auto;
@@ -151,7 +259,7 @@ footer > a:active{
     }
 }
 
-@media (max-width: 380px), screen and (orientation: landscape){
+@media (max-width: 0px), screen and (orientation: landscape){
     ul.celulargrande{
         display: none;
     }
@@ -183,4 +291,4 @@ footer > a:active{
     font-size: 0.8em;
     margin-right: 5px;
    }
-}
+}*/
