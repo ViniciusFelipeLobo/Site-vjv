@@ -50,6 +50,7 @@
         color: var(--cor7);
         cursor: pointer;
         height: 30px;
+        -webkit-tap-highlight-color: transparent; 
     }
     i#icone:active{
         background-color: var(--cor8);
