@@ -52,14 +52,8 @@
         height: 30px;
     }
     i#icone:active{
-<<<<<<< Updated upstream
         background-color: var(--cor8);
         color: var(--cor7);
-=======
-        background-color: var(--cor0);
-        color: var(--cor5);
-        transition: 30ms ease-in-out;
->>>>>>> Stashed changes
     }
     menu#items{
         text-align: center;
