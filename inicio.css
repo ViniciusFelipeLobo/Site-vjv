@@ -87,6 +87,7 @@
         font-size: 1.5rem;
         background-color: var(--cor7);
         margin: auto;
+        -webkit-tap-highlight-color: transparent; 
     }
     main{
         display: flex;
