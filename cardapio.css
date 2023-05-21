@@ -112,7 +112,7 @@ footer > a{
 footer > a:active{
     color: var(--cor5);
 }
-@media (max-width: 1000px),  screen and (orientation: landscape){
+@media (max-width: 1000px) and (orientation: landscape){
     header > p{
         font-size: 3em;
         position: auto;
