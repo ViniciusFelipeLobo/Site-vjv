@@ -88,10 +88,10 @@
     main{
         display: flex;
         justify-content: center;
-        height: 78vh;
+        height: 75vh;
         background: url(imagens/vjv\ \(400\ ×\ 667\ px\)\ \(400\ ×\ 500\ px\)\ \(400\ ×\ 650\ px\)\ \(410\ ×\ 700\ px\).png);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
     }
     footer{
