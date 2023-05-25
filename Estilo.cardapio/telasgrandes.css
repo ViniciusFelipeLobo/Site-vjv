@@ -17,6 +17,9 @@
     margin: 0px;
     font-family:'Luckiest Guy', Helvetica, sans-serif;
 }
+ul.celulargrande{display: none;}
+ul.celularpequeno{display: none;}
+ul.computador{display: block;}
 
 header{
 background-image: linear-gradient(To bottom, var(--cor0), var(--cor4));
@@ -49,7 +52,6 @@ a:active{
     color: var(--cor0);
 }
 main{ 
-
     color: white;
     margin: auto;
     background-color: var(--cor4);
@@ -111,76 +113,4 @@ footer > a{
 }
 footer > a:active{
     color: var(--cor5);
-}
-
-@media (max-width: 540px){
-    header > p{
-        font-size: 2em;
-        position: auto;
-        text-shadow: 1px 1px 2px black;
-        color: var(--cor5);
-    }
-    ul.computador{
-        display: none;
-    }
-    ul.celularpequeno{
-        display: none;
-    }
-    ul.celulargrande{
-        display: block;
-    }
-
-
-    main > p{
-     font-size: 1.5em;
-    }
-     li.produto {
-     font-size: 1em;
-    }
-     li.caracteristicas{
-     font-size: 0.8em;
-    }
-     li.tituloproduto{
-     font-size: 1.4em;
-     padding: 8px;
- 
-    }
-    nav > a{
-     font-size: 1em;
-     margin-right: 5px;
-    }
-}
-
-@media (max-width: 380px){
-    ul.celulargrande{
-        display: none;
-    }
-    ul.celularpequeno{
-        display: block;
-    }
-    header > p{
-        font-size: 2em;
-        position: auto;
-        text-shadow: 1px 1px 2px black;
-        color: var(--cor5);
-    }
-   main > p{
-    font-size: 1.5em;
-   }
-
-    li.produto {
-    font-size: 1em;
-   }
-    li.caracteristicas{
-    font-size: 0.5em;
-   }
-    li.tituloproduto{
-    font-size: 1.3em;
-    padding: 8px;
-
-   }
-   nav > a{
-    font-size: 0.8em;
-    margin-right: 5px;
-   }
 }
