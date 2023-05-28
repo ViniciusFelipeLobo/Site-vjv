@@ -1,4 +1,4 @@
-@media screen and (min-heigth: 500px){
+
     ul.celulargrande{
         display: none;
     }
@@ -15,6 +15,5 @@
     font-size: 1.4em;
    }
    nav > a{
-    font-size: 2em;
+    font-size: 1em;
    }
-}
