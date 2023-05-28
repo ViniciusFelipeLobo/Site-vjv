@@ -88,8 +88,8 @@
     main{
         display: flex;
         justify-content: center;
-        height: 75vh;
-        background: url(imagens/vjv\ \(400\ ×\ 667\ px\)\ \(400\ ×\ 500\ px\)\ \(400\ ×\ 650\ px\)\ \(410\ ×\ 700\ px\).png);
+        height: 100vh;
+        background: url(imagens/vjv\ \(400\ ×\ 667\ px\)\ \(400\ ×\ 500\ px\)\ \(1\).png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
