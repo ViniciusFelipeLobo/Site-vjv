@@ -103,10 +103,10 @@
     }
      li.produto {
      font-size: 1em;
-     padding: 5px;
     }
      li.caracteristicas{
      font-size: 0.5em;
+     padding-bottom: 5px;
     }
      li.tituloproduto{
      font-size: 1.3em;
