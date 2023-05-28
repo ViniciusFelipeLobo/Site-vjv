@@ -1,4 +1,4 @@
-@media (min-width: 380px){
+
     ul.celulargrande{
         display: none;
     }
@@ -17,4 +17,3 @@
    nav > a{
     font-size: 1em;
    }
-}
