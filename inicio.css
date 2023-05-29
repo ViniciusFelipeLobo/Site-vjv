@@ -41,7 +41,7 @@
         text-align: center;
         color: var(--cor5);
         margin: auto;
-        height: 100px;
+        height: 10vh;
     }
     #logo{
         display: flex;
@@ -106,14 +106,14 @@
     }
     a{
         padding: 5px;
-        width: 100%;
+        width: 100vw;
         display: block;
         color: var(--cor5);
         text-decoration: none;
         list-style: none;
         font-size: 1.5rem;
         background-color: var(--cor7);
-        margin: auto;
+        margin: 0px;
         -webkit-tap-highlight-color: transparent; 
     }
     #footerMenu{
@@ -123,15 +123,16 @@
     main{
         display: flex;
         justify-content: center;
-        height: 100vh;
+        height: 83vh;
         background: url(imagens/vjv\ \(400\ ×\ 667\ px\)\ \(400\ ×\ 500\ px\)\ \(1\).png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
     footer{
+        height: 7vh;
         padding: 5px;
-        width: 96vw;
+        width: 100vw;
         text-align: center;
         background-color: var(--cor7);
         color: var(--cor5);
