@@ -20,13 +20,13 @@
 
 @media (min-width: 0px) and (max-width: 500px), screen and (orientation: landscape) {
     html{
-        overflow: hidden;
+        overflow: auto;
         padding: 0px;
         margin: 0px;
-        height: 100vh;
+        height: 90vh;
     }
     body{
-        height: 100vh;
+        height: 90vh;
     }
     header{
         flex-wrap: wrap;
