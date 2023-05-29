@@ -20,7 +20,7 @@
 
 @media (min-width: 0px) and (max-width: 500px), screen and (orientation: landscape) {
     html{
-        overflow: auto;
+        overflow: hidden;
         padding: 0px;
         margin: 0px;
         height: 100vh;
