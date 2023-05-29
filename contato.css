@@ -99,21 +99,7 @@ footer{
     }
     footer > a:active{
         color: var(--cor5);
-    }
-    
-    @media (max-width: 540px), screen and (orientation: landscape){
-        header > p{
-            font-size: 2em;
-            position: auto;
-            text-shadow: 1px 1px 2px black;
-            color: var(--cor5);
-        }
-        nav > a{
-         font-size: 1em;
-         margin-right: 5px;
-        }
-    }
-    
+    }    
     @media (max-width: 380px), screen and (orientation: landscape){
         header > p{
             font-size: 2em;
@@ -126,4 +112,27 @@ footer{
          margin-right: 5px;
         }
      }
+     @media (max-width: 540px), screen and (orientation: landscape){
+        header > p{
+            font-size: 2em;
+            position: auto;
+            text-shadow: 1px 1px 2px black;
+            color: var(--cor5);
+        }
+        nav > a{
+         font-size: 1em;
+         margin-right: 5px;
+        }
+    }    @media (min-width: 540px), screen and (orientation: landscape){
+        header > p{
+            font-size: 2em;
+            position: auto;
+            text-shadow: 1px 1px 2px black;
+            color: var(--cor5);
+        }
+        nav > a{
+         font-size: 1em;
+         margin-right: 5px;
+        }
+    }
      
