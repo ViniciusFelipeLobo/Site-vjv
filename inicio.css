@@ -21,6 +21,12 @@
 @media (min-width: 0px) and (max-width: 500px), screen and (orientation: landscape) {
     html{
         overflow: auto;
+        padding: 0px;
+        margin: 0px;
+        height: 100vh;
+    }
+    body{
+        height: 100vh;
     }
     header{
         flex-wrap: wrap;
@@ -97,15 +103,14 @@
         margin: auto;
         -webkit-tap-highlight-color: transparent; 
     }
-    div{
+    #logMenu{
         display: flex;
         align-items: center;
         color: var(--cor5);
-        font-size: 40px;
+        font-size: 49px;
     }
-    #logoimg{
-        height: 80px;
-        width: 80px;
+    hr{
+        width: 70%;
     }
     main{
         display: flex;
@@ -118,6 +123,7 @@
     }
     footer{
         padding: 5px;
+        width: 96vw;
         text-align: center;
         background-color: var(--cor7);
         color: var(--cor5);
