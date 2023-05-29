@@ -108,7 +108,6 @@
     a{
         padding: 5px;
         width: 100vw;
-        display: block;
         color: var(--cor5);
         text-decoration: none;
         list-style: none;
