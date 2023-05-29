@@ -1,8 +1,32 @@
+@media screen and (max-width: 768px) {
     ul.celulargrande{
-        display: none;
+     display: block;
+     }
+     ul.celularpequeno{
+     display: none;
+     }
+    main > p{
+     font-size: 1.5em;
+    }
+     li.caracteristicas{
+     font-size: 0.8em;
+    }
+     li.tituloproduto{
+     font-size: 1.4em;
+    }
+    nav > a{
+     font-size: 1em;
+    }
+    }
+@media screen and (orientation: landscape) and (max-width: 768px) {
+   ul.computador{
+    display: block;
+   } 
+   ul.celulargrande{
+    display: none;
     }
     ul.celularpequeno{
-        display: block;
+    display: none;
     }
    main > p{
     font-size: 1.5em;
@@ -15,4 +39,5 @@
    }
    nav > a{
     font-size: 1em;
+   }
    }
