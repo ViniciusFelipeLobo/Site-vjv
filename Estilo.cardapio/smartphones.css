@@ -18,7 +18,7 @@
      font-size: 1em;
     }
     }
-@media screen and (orientation: landscape) and (max-width: 768px) {
+@media screen and (max-width: 915px) {
    ul.computador{
     display: block;
    } 
