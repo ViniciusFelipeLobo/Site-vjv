@@ -81,7 +81,8 @@
         display: flex;
         justify-content: center;
         color: var(--cor5);
-        font-size: 50px;
+        font-size: 40px;
+        padding-top: 10px;
     }
     hr{
         margin: auto;
@@ -91,7 +92,7 @@
     ul{
         list-style: none;
         width: 100%;
-        height: 75vh;
+        height: 80vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -117,6 +118,7 @@
     }
     #footerMenu{
         color: var(--cor5);
+        padding-top: 2px;
     }
     main{
         display: flex;
