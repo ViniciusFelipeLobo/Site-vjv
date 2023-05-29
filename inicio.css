@@ -146,6 +146,18 @@
         font-size: 1em;
         padding: 0px;
     }
+    @keyframes wave {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-20px); }
+        100% { transform: translateY(0); }
+      }
+      
+      .wave-animation {
+        display: inline-block;
+        animation-name: wave;
+        animation-duration: 2s;
+        animation-iteration-count: inherit;
+      }
 }
 @media screen and (min-width: 375px){
     html{
