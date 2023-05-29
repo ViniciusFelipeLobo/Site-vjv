@@ -82,7 +82,7 @@
         justify-content: center;
         color: var(--cor5);
         font-size: 40px;
-        padding-top: 10px;
+        padding-top: 40px;
     }
     hr{
         margin: auto;
@@ -123,15 +123,14 @@
     main{
         display: flex;
         justify-content: center;
-        height: 83vh;
+        height: 75vh;
         background: url(imagens/vjv\ \(400\ ×\ 667\ px\)\ \(400\ ×\ 500\ px\)\ \(1\).png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
     footer{
-        height: 7vh;
-        padding: 5px;
+        height: 5vh;
         width: 100vw;
         text-align: center;
         background-color: var(--cor7);
