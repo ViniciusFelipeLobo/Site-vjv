@@ -17,8 +17,8 @@
     margin: 0px;
     font-family:'Luckiest Guy', Helvetica, sans-serif;
 }
-@media screen and (orientation: landscape) and (min-width: 0px)  {
-    ul.celulargrande{display: block;}
+@media screen and (min-width: 0px)  {
+    ul.celulargrande{display: none;}
     ul.celularpequeno{display: none;}
     ul.computador{display: none;}
     
@@ -118,8 +118,8 @@
     
     
 }
-@media screen and (orientation: landscape) and (min-width: 800px) {
-    ul.celulargrande{display: block;}
+@media screen and (min-width: 800px) and (orientation: landscape) {
+    ul.celulargrande{display: none;}
     ul.celularpequeno{display: none;}
     ul.computador{display: none;}
     
