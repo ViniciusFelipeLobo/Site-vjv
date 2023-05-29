@@ -18,7 +18,7 @@
     font-family: Luckiest Guy;
 }
 
-@media (min-width: 0px) and (max-width: 500px), screen and (orientation: landscape) {
+@media screen and (min-width: 0px) {
     html{
         overflow: auto;
         padding: 0px;
@@ -41,7 +41,7 @@
         text-align: center;
         color: var(--cor5);
         margin: auto;
-        height: 8vh;
+        height: 10vh;
     }
     #logo{
         display: flex;
@@ -112,7 +112,7 @@
         color: var(--cor5);
         text-decoration: none;
         list-style: none;
-        font-size: 1.5rem;
+        font-size: 1rem;
         background-color: var(--cor7);
         margin: 0px;
         -webkit-tap-highlight-color: transparent; 
@@ -145,5 +145,22 @@
         width: 100vw;
         font-size: 1em;
         padding: 0px;
+    }
+}
+@media screen and (min-width: 375px){
+    html{
+        overflow: auto;
+        padding: 0px;
+        margin: 0px;
+        height: 90vh;
+    }
+    body{
+        height: 90vh;
+    }
+    header{
+        height: 8vh;
+    }
+    a{
+        font-size: 1.5rem;
     }
 }
