@@ -178,10 +178,10 @@
 }
 @media screen and (min-width: 768px){
 header{
-    height: 13vh;
+    height: 15vh;
 }
 main{
-    height: 77vh;
+    height: 70vh;
 }
 ul{
     display: flex;

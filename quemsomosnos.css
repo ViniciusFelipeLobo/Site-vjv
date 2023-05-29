@@ -21,7 +21,7 @@ header{
     padding-bottom: 10px;
 }
 header > p{
-    font-size: 3em;
+    font-size: 2em;
     position: auto;
     text-shadow: 1px 1px 2px black;
     color: var(--cor5);
