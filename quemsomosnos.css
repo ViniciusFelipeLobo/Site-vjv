@@ -14,6 +14,7 @@
     margin: 0px;
     font-family:'Luckiest Guy', Helvetica, sans-serif;
 }
+@media screen and (min-width: 0px){
 header{
     background-image: linear-gradient(To bottom, var(--cor0), var(--cor4));
     text-align: center;
@@ -33,9 +34,10 @@ nav{
 nav > a {
     color: var(--cor0);
     text-decoration: none;
-    margin: 15px;
+    margin-right: 5px;
     padding: 2px;
     -webkit-tap-highlight-color: transparent; 
+    font-size: 0.8em;
 }
 nav > a:hover{
     background-color: white;
@@ -59,8 +61,8 @@ main > h1{
 text-shadow: 1px 1px 2px black;
 font-size: 1em;
 }
-
-@media (max-width: 540px){
+}
+@media (min-width: 380px){
     header > p{
         font-size: 2em;
         position: auto;
@@ -69,11 +71,11 @@ font-size: 1em;
     }
     nav > a{
      font-size: 1em;
-     margin: 5px;
+     margin-right: 5px;
     }
 }
 
-@media (max-width: 380px){
+@media (min-width: 540px){
     header > p{
         font-size: 2em;
         position: auto;
@@ -81,8 +83,19 @@ font-size: 1em;
         color: var(--cor5);
     }
     nav > a{
-     font-size: 0.8em;
-     margin: 5px;
+     font-size: 1em;
+     margin-right: 5px;
     }
- }
- 
+}
+@media (min-width: 768px){
+    header > p{
+        font-size: 2em;
+        position: auto;
+        text-shadow: 1px 1px 2px black;
+        color: var(--cor5);
+    }
+    nav > a{
+     font-size: 1em;
+     margin: 15px;
+    }
+}
