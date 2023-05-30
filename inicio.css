@@ -64,7 +64,7 @@
     i#icone:active{
         background-color: var(--cor8);
         color: var(--cor7);
-        transition: 1ms ease-in-out;
+        transition: .1ms ease-in-out;
         -webkit-tap-highlight-color: transparent; 
     }
     menu#items{
