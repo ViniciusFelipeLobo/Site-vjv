@@ -35,17 +35,17 @@
     <script>
         function clickMenu(){
             let over = document.querySelector('menu#items')
+            let largura = window.innerWidth
             if(items.style.display == 'block') { 
                 items.style.display = 'none'
+            }
+            else if(largura <= 700){
+            over.style.overflow = 'auto'
             }
             else{
                 items.style.display = 'block';
                 over.style.overflow ='hidden'
            }
-           /*let over = document.querySelector('html')
-            if(over.style.overflow === 'auto'){
-                over.style.overflow ='hidden'
-            }*/
         }
     </script>
 </body>
