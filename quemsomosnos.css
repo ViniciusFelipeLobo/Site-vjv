@@ -33,7 +33,7 @@ nav{
 nav > a {
     color: var(--cor0);
     text-decoration: none;
-    margin-right: 15px;
+    margin: 15px;
     padding: 2px;
     -webkit-tap-highlight-color: transparent; 
 }
