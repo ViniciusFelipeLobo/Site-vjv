@@ -202,8 +202,7 @@ header{
 }
 main{
     height: 70vh;
-    background: url(imagens/vjv\ \(400\ ×\ 667\ px\)\ \(400\ ×\ 500\ px\)\ \(1\).png);
-    background-size: contain;
+
 }
 ul{
     display: flex;
