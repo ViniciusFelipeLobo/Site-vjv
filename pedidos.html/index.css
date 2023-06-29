@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Luckiest+Guy&family=Monsieur+La+Doulaise&family=Poppins&family=Style+Script&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Luckiest Guy', 'sans-serif';
+}
+:root{
+  font-size: 62.5%;
+  --cor1: #131A40;
+  --cor2: #273273;
+  --cor3: #4E64A6;
+  --cor4: #829FD9;
+  --cor5: #99B7F9;
+}
+html,body{
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template: 15% 80% 5% / 1fr;
+}
+header{
+  background-color: var(--cor2);
+  color: var(--cor5);
+  font-size: 3rem;
+  display: grid;
+  place-content: center;
+}
+main{
+  background-color: var(--cor4);
+  display: grid;
+  place-content: center; 
+  row-gap: 3rem;
+}
+.formulario{
+  padding: 4rem;
+  display: grid;
+  row-gap: 5rem;
+  border: .2rem var(--cor3) solid;
+  border-radius: .5rem;
+}
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+#etapas{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  color: var(--cor2);
+  border-bottom: .2rem var(--cor3) solid;
+  padding: 1rem;
+}
+.num{
+  width: 2.5rem;
+  background-color: var(--cor2);
+  color: #ffffff;
+  border-radius: 50%;
+}
+section{
+  background-color: var(--cor4);
+  color: var(--cor2);
+}
+#etdnome{
+  font-size: 2rem;
+  display: grid;
+  gap: 1rem;
+}
+input{
+  width: 100%;
+  text-align: center;
+  border-color: transparent;
+  border-radius: 1rem;
+  height: 3rem;
+  &:focus{
+    outline:none;
+    border: .2rem var(--cor3) solid;
+  }
+
+}
+
+button{
+  height: 3rem;
+  width: 15rem;
+  border-radius: .5rem;
+  border: 0;
+  background-color: var(--cor2);
+  color: #ffffff;
+  &:hover{
+    background-color: var(--cor3);
+    color: #ffffff;
+  }
+}
+#botoes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+}
+footer{
+  background-color: var(--cor2);
+  color: var(--cor5);
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
