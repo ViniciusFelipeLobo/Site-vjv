@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inicio.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>VJV DELIVERY</title>
+</head>
+<body>
+    <header>
+        <p id="logo">VJV DELIVERY</p>
+    </header>
+    <i id="icone" class="material-icons" onclick="clickMenu()">menu</i>
+    <main>
+        <menu id="items">
+            <p id="logMenu">VJV DELIVERY</p><hr>
+            <ul> 
+                <li><a class="wave-animation" href="index.html">Ínicio</a></li>
+                <li><a class="wave-animation"href="cardapio.html">Cardápio</a></li>
+                <li><a class="wave-animation"href="quemsomosnos.html">Quem somos Nós</a></li>
+                <li><a class="wave-animation"href="contato.html">Contato</a>   </li> 
+            </ul>
+            <hr><p id="footerMenu"> &copy Desde 2021</p><hr>
+            </menu>
+    </main>
+    <footer>
+        <p>
+            Site desenvolvido Por 
+        </p>
+        <a href="https://www.instagram.com/vini_felipee_/?igshid=MzRlODBiNWFlZA%3D%3D">@vinicius Felipe</a>
+    </footer>
+    <script>
+        function clickMenu(){
+            let over = document.querySelector('menu#items')
+            let largura = window.innerWidth
+            if(items.style.display == 'block') { 
+                items.style.display = 'none'
+            }
+            else if(largura <= 700){
+            items.style.display = 'block'
+            over.style.overflow = 'hidden'
+            }
+            else{
+                items.style.display = 'block'
+                over.style.overflow ='auto'
+           }
+        }
+    </script>
+</body>
+</html>

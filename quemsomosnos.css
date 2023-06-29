@@ -14,7 +14,7 @@
     margin: 0px;
     font-family:'Luckiest Guy', Helvetica, sans-serif;
 }
-
+@media screen and (min-width: 0px){
 header{
     background-image: linear-gradient(To bottom, var(--cor0), var(--cor4));
     text-align: center;
@@ -22,7 +22,8 @@ header{
     padding-bottom: 10px;
 }
 header > p{
-    font-size: 3em;
+    font-size: 2em;
+    position: auto;
     text-shadow: 1px 1px 2px black;
     color: var(--cor5);
 }
@@ -31,9 +32,12 @@ nav{
     background-color: var(--cor4);
 }
 nav > a {
+    color: var(--cor0);
     text-decoration: none;
-    margin-right: 15px;
+    margin-right: 5px;
     padding: 2px;
+    -webkit-tap-highlight-color: transparent; 
+    font-size: 0.8em;
 }
 nav > a:hover{
     background-color: white;
@@ -51,76 +55,19 @@ main{
     font-size: 1em;
     text-shadow: 1px 1px 2px black;
     box-shadow: 1px 1px 3px black;
+    padding: 10px;
 }
-ul.celulargrande{
-    display: none;
+main > h1{
+text-shadow: 1px 1px 2px black;
+font-size: 1em;
 }
-main > p{
-    padding: 8px;
-    font-size: 2em;
-    text-decoration: none;
 }
-ul{
-    list-style: none;
-}
-.tituloproduto{
-    font-size: 1.7em;
-}
-.produto{
-    font-size: 1.5em;
-}
-.caracteristicas{
-    font-size: 1.1em;
-    font-weight: lighter;
-    margin: 5px;
-}
-.pasteis{
-    padding: 8px;
-}
-#listadeprodutos{
-    background-color: var(--cor2);
-    padding: 30px;
-}
-footer{
-    background-color: var(--cor0);
-    color: var(--cor5);
-    text-align: center;
-    padding: 5px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-}
-footer > a{
-    color: var(--cor5);
-}
-footer > a:active{
-    color: var(--cor5);
-}
-
-@media (max-width: 540px){
+@media (min-width: 380px){
     header > p{
         font-size: 2em;
         position: auto;
         text-shadow: 1px 1px 2px black;
         color: var(--cor5);
-    }
-    ul.computador{
-        display: none;
-    }
-    ul.celulargrande{
-        display: block;
-    }
-    main > p{
-     font-size: 1.5em;
-    }
-     li.produto {
-     font-size: 1em;
-    }
-     li.caracteristicas{
-     font-size: 0.8em;
-    }
-     li.tituloproduto{
-     font-size: 1.4em;
-     padding: 8px;
- 
     }
     nav > a{
      font-size: 1em;
@@ -128,29 +75,27 @@ footer > a:active{
     }
 }
 
-@media (max-width: 380px){
+@media (min-width: 540px){
     header > p{
         font-size: 2em;
         position: auto;
         text-shadow: 1px 1px 2px black;
         color: var(--cor5);
     }
-   main > p{
-    font-size: 1.5em;
-   }
-    li.produto {
-    font-size: 0.8em;
-   }
-    li.caracteristicas{
-    font-size: 0.5em;
-   }
-    li.tituloproduto{
-    font-size: 1em;
-    padding: 8px;
-
-   }
-   nav > a{
-    font-size: 1em;
-    margin-right: 5px;
-   }
+    nav > a{
+     font-size: 1em;
+     margin-right: 5px;
+    }
+}
+@media (min-width: 768px){
+    header > p{
+        font-size: 2em;
+        position: auto;
+        text-shadow: 1px 1px 2px black;
+        color: var(--cor5);
+    }
+    nav > a{
+     font-size: 1em;
+     margin: 15px;
+    }
 }

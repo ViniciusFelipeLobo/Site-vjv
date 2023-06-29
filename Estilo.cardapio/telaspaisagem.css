@@ -1,0 +1,320 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+:root{
+    --cor0: #0455BF;
+    --cor1: #0477BF;
+    --cor2: #048ABF;
+    --cor3: #049DBF;
+    --cor4: #04ADBF;
+    --cor5: #fafafa;
+    --cor6: #551A8B;
+    --cor7: #FF1616;
+    --cor8: #FDC240;
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Luckiest Guy', Helvetica, sans-serif;
+}
+@media screen and (min-width: 0px)  {
+    ul.celulargrande{display: none;}
+    ul.celularpequeno{display: none;}
+    ul.computador{display: none;}
+    
+    header{
+    background-image: linear-gradient(To bottom, var(--cor0), var(--cor4));
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    header > p{
+        font-size: 2em;
+        text-shadow: 1px 1px 2px black;
+        color: var(--cor5);
+    }
+    nav{
+        text-align: center;
+    background-color: var(--cor4);
+        
+    }
+    nav > a {
+        text-decoration: none;
+        margin-right: 15px;
+        padding: 2px;
+        color: var(--cor0);
+        -webkit-tap-highlight-color: transparent; 
+    }
+    nav > a:hover{
+        background-color: var(--cor5);
+        border-radius: 15px;
+    }
+    a:active{
+        color: var(--cor0);
+    }
+    main{ 
+        color: white;
+        margin: auto;
+        background-color: var(--cor4);
+        text-align: center;
+        font-size: 1em;
+        text-shadow: 1px 1px 2px black;
+        padding-top: 15px;
+        
+    }
+    #numpag{
+        color: var(--cor4);
+        background-color: var(--cor5);
+        border-radius: 15px;
+        padding: 5px;
+        margin: 2px;
+    }
+    ul.celulargrande{
+        display: none;
+    }
+    main > p{
+        padding: 8px;
+        font-size: 2em;
+        text-decoration: none;
+    }
+    ul{
+        
+        list-style: none;
+    }
+    .tituloproduto{
+        font-size: 1.7em;
+    }
+    .produto{
+        font-size: 1.5em;
+    }
+    .caracteristicas{
+        font-size: 1.1em;
+        font-weight: lighter;
+        margin: 5px;
+    }
+    .pasteis{
+        padding: 8px;
+    }
+    #listadeprodutos{
+    
+        padding: 30px;
+    }
+    #listadeprodutos a:hover{
+       background-color: #04ADBF;
+    }
+    footer{
+        background-color: var(--cor0);
+        color: var(--cor5);
+        text-align: center;
+        padding: 5px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+    footer > a{
+        color: var(--cor5);
+    }
+    footer > a:active{
+        color: var(--cor5);
+    }
+    
+    
+}
+@media screen and (min-width: 800px) and (orientation: landscape) {
+    ul.celulargrande{display: none;}
+    ul.celularpequeno{display: none;}
+    ul.computador{display: none;}
+    
+    header{
+    background-image: linear-gradient(To bottom, var(--cor0), var(--cor4));
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    header > p{
+        font-size: 3em;
+        text-shadow: 1px 1px 2px black;
+        color: var(--cor5);
+    }
+    nav{
+        text-align: center;
+    background-color: var(--cor4);
+        
+    }
+    nav > a {
+        text-decoration: none;
+        margin-right: 15px;
+        padding: 2px;
+        color: var(--cor0);
+        -webkit-tap-highlight-color: transparent; 
+    }
+    nav > a:hover{
+        background-color: var(--cor5);
+        border-radius: 15px;
+    }
+    a:active{
+        color: var(--cor0);
+    }
+    main{ 
+        color: white;
+        margin: auto;
+        background-color: var(--cor4);
+        text-align: center;
+        font-size: 1em;
+        text-shadow: 1px 1px 2px black;
+        padding-top: 15px;
+        
+    }
+    #numpag{
+        color: var(--cor4);
+        background-color: var(--cor5);
+        border-radius: 15px;
+        padding: 5px;
+        margin: 2px;
+    }
+    ul.celulargrande{
+        display: none;
+    }
+    main > p{
+        padding: 8px;
+        font-size: 2em;
+        text-decoration: none;
+    }
+    ul{
+        
+        list-style: none;
+    }
+    .tituloproduto{
+        font-size: 1.7em;
+    }
+    .produto{
+        font-size: 1.5em;
+    }
+    .caracteristicas{
+        font-size: 1.1em;
+        font-weight: lighter;
+        margin: 5px;
+    }
+    .pasteis{
+        padding: 8px;
+    }
+    #listadeprodutos{
+    
+        padding: 30px;
+    }
+    #listadeprodutos a:hover{
+       background-color: #04ADBF;
+    }
+    footer{
+        background-color: var(--cor0);
+        color: var(--cor5);
+        text-align: center;
+        padding: 5px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+    footer > a{
+        color: var(--cor5);
+    }
+    footer > a:active{
+        color: var(--cor5);
+    }
+    
+    
+}
+@media screen and (orientation: landscape) and (min-width: 1800px) {
+ul.celulargrande{display: none;}
+ul.celularpequeno{display: none;}
+ul.computador{display: none;}
+
+header{
+background-image: linear-gradient(To bottom, var(--cor0), var(--cor4));
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+header > p{
+    font-size: 3em;
+    text-shadow: 1px 1px 2px black;
+    color: var(--cor5);
+}
+nav{
+    text-align: center;
+background-color: var(--cor4);
+    
+}
+nav > a {
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 2px;
+    color: var(--cor0);
+    -webkit-tap-highlight-color: transparent; 
+}
+nav > a:hover{
+    background-color: var(--cor5);
+    border-radius: 15px;
+}
+a:active{
+    color: var(--cor0);
+}
+main{ 
+    color: white;
+    margin: auto;
+    background-color: var(--cor4);
+    text-align: center;
+    font-size: 1em;
+    text-shadow: 1px 1px 2px black;
+    padding-top: 15px;
+    
+}
+#numpag{
+    color: var(--cor4);
+    background-color: var(--cor5);
+    border-radius: 15px;
+    padding: 5px;
+    margin: 2px;
+}
+ul.celulargrande{
+    display: none;
+}
+main > p{
+    padding: 8px;
+    font-size: 2em;
+    text-decoration: none;
+}
+ul{
+    
+    list-style: none;
+}
+.tituloproduto{
+    font-size: 1.7em;
+}
+.produto{
+    font-size: 1.5em;
+}
+.caracteristicas{
+    font-size: 1.1em;
+    font-weight: lighter;
+    margin: 5px;
+}
+.pasteis{
+    padding: 8px;
+}
+#listadeprodutos{
+
+    padding: 30px;
+}
+#listadeprodutos a:hover{
+   background-color: #04ADBF;
+}
+footer{
+    background-color: var(--cor0);
+    color: var(--cor5);
+    text-align: center;
+    padding: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+footer > a{
+    color: var(--cor5);
+}
+footer > a:active{
+    color: var(--cor5);
+}
+}
