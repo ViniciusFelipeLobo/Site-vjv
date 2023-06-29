@@ -8,7 +8,7 @@
     <title>App</title>
     <script type="text/javascript" src="./index.js" defer=""></script>
     <script type="text/javascript" src="./index.js" defer=""></script>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="pagina2.css">
   </head>
 
   <body>
@@ -17,8 +17,8 @@
       <div class="formulario">
 
         <div id="etapas">
-          <div class="num">1</div>
-          <div>Passo</div>
+          <div class="num one">✔</div>
+          <div id="passoone">Passo</div>
           <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_408_251)">
               <path d="M8.41663 5L13.4166 10L8.41663 15" stroke="#323238" stroke-width="2" stroke-linecap="square"></path>
@@ -29,7 +29,7 @@
               </clipPath>
             </defs>
           </svg>
-          <div class="num">2</div>
+          <div class="num 2">2</div>
           <div>passo</div>
           <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_408_251)">
@@ -41,15 +41,17 @@
               </clipPath>
             </defs>
           </svg>
-          <div class="num">3</div>
+          <div class="num 3">3</div>
           <div>passo</div>
         </div>
         <section id="etdnome">
-          <label for="nome">Nome</label>
-          <input type="text" id="nome" placeholder="Digite aqui o seu nome..." required="">
-        </section>
-        <section id="botoes">
-            <a href="pagina2"><button>proximo</button></a>
+          <p>Olá, seja Bem vindo!!!
+            clique no botão logo abaixo para selecionar os items desejados</p>
+
+          <section id="botoes">
+            <button id="botao1">voltar</button>
+            <button id="botao2">selecionar pedido</button>
+          </section>
         </section>
       </div>
     </main>
